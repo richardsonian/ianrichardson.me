@@ -1,0 +1,31 @@
+{
+    "emmet.includeLanguages":{
+        "jekyll": "html",
+        "scss": "css"
+      },
+      "editor.tokenColorCustomizations": {
+        "[Material Theme]": {
+            "textMateRules": [
+                {
+                    "name": "Jekyll Tags",
+                    "scope": [
+                      "punctuation.output.jekyll",
+                      "punctuation.tag.jekyll"
+                    ],
+                    "settings": {
+                      "foreground": "#45f442"
+                    }
+                  },
+                  {
+                    "name": "Jekyll Front Matter",
+                    "scope": [
+                      "frontmatter.jekyll"
+                    ],
+                    "settings": {
+                      "foreground": "#41f1f4"
+                    }
+                  },
+            ],
+        },
+    },
+}
