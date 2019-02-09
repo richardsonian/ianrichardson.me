@@ -2,8 +2,8 @@
 title: Ian Richardson's Website
 description: >- # this means to ignore newlines until "baseurl:"
   A website about Ian Richardson
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/ianrichardson.me" # the subpath of your site, e.g. /blog
+url: "https://richardsonian.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
