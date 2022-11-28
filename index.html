@@ -1,24 +1,27 @@
 ---
 layout: default
-title: A sleek, modern Jekyll theme for personal websites.
-description: A sleek, modern Jekyll theme for personal websites. Personal is the perfect theme for developers, designers and other creatives.
-featured_image: /images/demo/home.jpg
+title: Ian Richardson
+description: Ian Richardson's Personal Website
+featured_image: /images/workshop.jpg
 ---
-
+<script src="/js/typewriter.js"></script>
 <section class="hero">
 
 	<div class="hero__image" style="background-image: url({{ page.featured_image | relative_url }})">
 		<div class="hero__overlay"></div>
 	</div>
 
-	<div class="wrap">
+	<div class="wrap" style="float: center">
+		<div style="float: inline-start; width: 30%">
+			<img src="/images/Ian Senior Portrait.jpg" width="250" />
+		</div>
 
-		<h1>A sleek, modern Jekyll theme
-		for personal websites</h1>
-		<p>Personal is the perfect theme for developers, designers and other creatives.</p>
+		<div style="margin: left 200px">
+		<h1>Hi, I'm Ian.</h1>
+		<h1 id="typewriter"></h1>
 
 		{% include socials.html %}
-
+		</div>
 	</div>
 
 </section>
