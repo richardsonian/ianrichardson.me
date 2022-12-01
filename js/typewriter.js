@@ -1,4 +1,7 @@
-document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DOMContentLoaded', typewriter);
+window.addEventListener('pageshow', typewriter);
+
+function typewriter() {
     // List of sentences
     var _CONTENT = [
         "Thinker.",
@@ -66,4 +69,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     // Start the typing effect on load
     _INTERVAL_VAL = setInterval(Type, 100);    
-});
+}
