@@ -144,4 +144,10 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 @import "_includes/_listing";
 @import "_includes/_hero";
 
+//typerwriter
+@import 'typed';
+
+#typewriter {
+    @include typed("Thinker.", "Maker.", "Electrical Engineer.", "Mechanical Engineer.", "Biomedical Engineer.");
+}
 
