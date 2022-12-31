@@ -52,3 +52,17 @@
 		color: $background-color;
 	}
 }
+
+// For Resume button
+.resume__link {
+	@extend .socials__item__link;
+	border-radius: 9999px;
+	width: 120px;
+}
+
+.resume__text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	@include translate(-50%,-50%);
+}
