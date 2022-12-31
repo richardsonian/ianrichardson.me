@@ -138,44 +138,9 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 @import "_includes/_contact-form";
 
 
-
 // - - - - - - - - - - Section styles
 
 @import "_includes/_listing";
 @import "_includes/_hero";
 
-//typerwriter
-@import 'typed';
-
-#typewriter {
-    @include typed(
-        "I'm a Thinker.",
-        "I'm a Maker.",
-        "I'm a Tinkerer.", 
-        "I'm an Electrical Engineer.",
-        "I'm a Mechanical Engineer.", 
-        "I'm a Biomedical Engineer.",
-        "I love 3D Printing.",
-        "I love laser cutting.",
-        "I love machining.",
-        "I love THORlabs #notsponsored",
-        "I build robotics.",
-        "I build medical devices.",
-        "I write software.",
-        "I wonder if anyone is still reading this.",
-        "Why are you still here?",
-        "Go read about a project already.",
-        "Or you can find out more about me on the about page.",
-        "This is getting weird.",
-        "Are you just bored or something?",
-        "I'm running out of things to say.",
-        "It's going to repeat eventually.",
-        "Not if I can help it.",
-        "Okay I think I've really run out of ideas.",
-        "Repeating in",
-        "3",
-        "2",
-        "1"
-    );
-}
-
+@import "greeting"; // front page image, hello, and socials
