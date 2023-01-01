@@ -9,7 +9,7 @@ backdrop_image: '/images/projects/this-website/jekyll-logo.png'
 
 ## About this Project
 
-> Check out the source code[on GitHub](https://github.com/richardsonian/ianrichardson.me)!
+> Check out the source code [on GitHub](https://github.com/richardsonian/ianrichardson.me)!
 
 ### Overview
 
