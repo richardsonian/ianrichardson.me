@@ -59,6 +59,22 @@
     }
 }
 
+.project_label {
+    color: $hero-text-color;
+
+    //center
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+
+    //shift up out of way of first project
+    bottom: 50px;
+	@include mq(tabletp) {
+		bottom: 70px;
+	}
+}
 
 //typerwriter
 @import 'typed';
