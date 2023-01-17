@@ -54,8 +54,3 @@ The goal of my second prototype was to get everything in a single box. At this p
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Gp5phZwox8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This is a video of the latest iteration of my USB fingerprint scanner unlocking my laptop by entering my PIN. The RGB indicator LED shines blue for standby, blinks green when it's ready for a fingerprint, then shines green or red, depending on whether the fingerprint was accepted. After 10 seconds, the device powers off so that the lights don’t get annoying.
-
-### Code
-Unfortunately this code isn't on GitHub. For the incredibly curious, here are some archives on Google Drive
-1. [Arduino Code](https://drive.google.com/drive/folders/1ZQ2vi6FqQKK2Yz5xblJ6h4yPyxcebAVx?usp=sharing), which runs on the fingerprint key
-2. [Chrome Extension Code](https://drive.google.com/file/d/1Wd3bOq-pFPC5yfVu3I_Q0sbCQuau2QwW/view?usp=sharing), optional companion software
