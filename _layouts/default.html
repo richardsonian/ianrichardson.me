@@ -75,6 +75,9 @@ gtag('js', new Date());
 gtag('config', 'G-J421XJY6CS');
 </script>
 
+<!--Clicky Tracking-->
+<script async src="//static.getclicky.com/101394258.js"></script>
+
 <body class="loading{% if site.data.settings.advanced_settings.ajax_loading == true %} ajax-loading{% endif %}" data-site-url="{{ site.url }}" data-page-url="{{ page.url | replace: 'index.html', '' }}">
 
 
@@ -109,8 +112,6 @@ gtag('config', 'G-J421XJY6CS');
 	<!-- Extra Footer JS Code -->
 	{{ site.data.settings.advanced_settings.footer_js }}
 	{% endif %}
-
-
 </body>
 
 </html>
