@@ -54,7 +54,7 @@
 	{% endif %}
 
 	{% if site.data.settings.advanced_settings.analytics_code %}
-	<!-- Analytics Code -->
+	<!-- Analytics Code [Not Using]-->
 	{{ site.data.settings.advanced_settings.analytics_code }}
 	{% endif %}
 
@@ -65,6 +65,15 @@
 	
 </head>
 
+<!-- Google tag (gtag.js) [Manually Added]-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J421XJY6CS"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-J421XJY6CS');
+</script>
 
 <body class="loading{% if site.data.settings.advanced_settings.ajax_loading == true %} ajax-loading{% endif %}" data-site-url="{{ site.url }}" data-page-url="{{ page.url | replace: 'index.html', '' }}">
 
